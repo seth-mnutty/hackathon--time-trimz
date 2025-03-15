@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dadae7;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .booking-system {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgb(182, 243, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  #appointment-list {
+    margin-top: 20px;
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  #appointment-list li {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
