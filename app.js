@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/login/:name" element={<Login />} />
-        <Route path="/user/:name" element={<UserPage />} /> {/* New route for user page */}
+        <Route path="/user/:name" element={<UserPage />} />
         <Route path="/user-dashboard" element={<UserDashboard />} />
         <Route path="/BusinessDescription" element={<BusinessDescription />} />
         <Route path="/" element={<Login />} />
